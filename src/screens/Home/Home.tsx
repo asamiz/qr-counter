@@ -1,10 +1,17 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
+import {Button} from '../../components';
+import {useNavigation} from '@react-navigation/core';
+import styles from './styles';
 
 function Home() {
+  const navigation = useNavigation();
   return (
-    <View>
-      <Text>{'Home'}</Text>
+    <View style={styles.container}>
+      <Button
+        onPress={() => navigation.navigate('CounterScreen')}
+        title={'Counter Screen'}
+      />
     </View>
   );
 }
