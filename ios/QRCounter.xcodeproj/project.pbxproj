@@ -114,7 +114,6 @@
 				719E3B61DCAA0968B998EF59 /* Pods-QRCounter-QRCounterTests.debug.xcconfig */,
 				D12684019018EBC58A9863D7 /* Pods-QRCounter-QRCounterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

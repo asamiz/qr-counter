@@ -9,7 +9,11 @@ const {Navigator, Screen} = createStackNavigator<RootStackParamsList>();
 function MainStack() {
   return (
     <Navigator screenOptions={STACK_OPTIONS} initialRouteName={'HomeScreen'}>
-      <Screen component={HomeScreen} name={'HomeScreen'} />
+      <Screen
+        component={HomeScreen}
+        name={'HomeScreen'}
+        options={{animationTypeForReplace: 'pop'}}
+      />
       <Screen component={CounterScreen} name={'CounterScreen'} />
       <Screen component={QRCodeScreen} name={'QRCodeScreen'} />
     </Navigator>
