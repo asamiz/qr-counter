@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-community/async-storage';
 import Logger from 'redux-logger';
 import {createStore, applyMiddleware} from 'redux';
 import {persistReducer, persistStore} from 'redux-persist';
-import {counterReducer} from './counter.reducer';
+import {counterReducer} from './counter';
 
 /* MiddleWare for redux */
 const middleware = applyMiddleware(Logger);
