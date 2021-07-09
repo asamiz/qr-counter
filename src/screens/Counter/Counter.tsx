@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {View, Text} from 'react-native';
 import {useDispatch, useSelector} from 'react-redux';
+import {CommonActions} from '@react-navigation/native';
 import {Button} from '../../components';
 import {ADD_COUNTER_VALUE} from '../../redux/counter/actionTypes';
 import {CounterProps, IAddCounterValue} from '../../types';
@@ -31,7 +32,14 @@ function Counter({navigation, route}: CounterProps) {
         />
         <Button
           title={'Go Home'}
-          onPress={() => navigation.replace('HomeScreen')}
+          onPress={() => {
+            navigation.dispatch(
+              CommonActions.reset({
+                index: 1,
+                routes: [{name: 'HomeScreen'}],
+              }),
+            );
+          }}
         />
       </View>
     </View>
