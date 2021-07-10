@@ -1,12 +1,12 @@
-import {CounterState, IAddCounterValue} from '../../types';
+import {ICounterState, IAddCounterValue} from '../../types';
 import {ADD_COUNTER_VALUE} from './actionTypes';
 
-const initialState: CounterState = {
+const initialState: ICounterState = {
   counterValue: 0,
 };
 
 function counterReducer(
-  state: CounterState = initialState,
+  state: ICounterState = initialState,
   action: IAddCounterValue,
 ) {
   const prevStateCounter: number = state.counterValue || 0;

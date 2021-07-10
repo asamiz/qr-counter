@@ -4,4 +4,5 @@ export interface IButtonProps {
   onPress: () => void;
   containerStyle?: ViewStyle;
   textStyle?: TextStyle;
+  testID?: string;
 }

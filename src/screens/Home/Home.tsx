@@ -6,10 +6,11 @@ import {HomeProps} from '../../types';
 
 function Home({navigation}: HomeProps) {
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID={'home-container'}>
       <Button
         onPress={() => navigation.navigate('CounterScreen')}
         title={'Counter Screen'}
+        testID={'home-btn'}
       />
     </View>
   );

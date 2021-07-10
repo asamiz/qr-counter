@@ -1,4 +1,4 @@
 export interface IAddCounterValue {
-  payload: number;
+  payload: number | undefined;
   type: string;
 }

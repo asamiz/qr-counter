@@ -1,3 +1,3 @@
-export interface CounterState {
+export interface ICounterState {
   counterValue: number;
 }

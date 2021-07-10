@@ -27,7 +27,7 @@ function QRCode() {
   }
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} testID={'qr-container'}>
       <QRCodeScanner
         ref={cameraRef}
         onRead={onSuccess}

@@ -23,14 +23,18 @@ function Counter({navigation, route}: CounterProps) {
   }, [dispatch, params.counterValue, route]);
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.counterText}>{state.counterValue || 0}</Text>
+    <View style={styles.container} testID={'counter-container'}>
+      <Text style={styles.counterText} testID={'app-counter'}>
+        {state.counterValue || 0}
+      </Text>
       <View style={styles.btnContainer}>
         <Button
+          testID={'qr-btn'}
           title={'QR Code'}
           onPress={() => navigation.navigate('QRCodeScreen')}
         />
         <Button
+          testID={'back-home-btn'}
           title={'Go Home'}
           onPress={() => {
             navigation.dispatch(
