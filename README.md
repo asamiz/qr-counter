@@ -23,6 +23,10 @@ React Native CLI to be installed. You can install it by running the command:
 npm install -g react-native-cli
 ```
 
+`Nodejs` and its version must be **>=12**
+
+[You can find the latest version here](https://nodejs.org/en/)
+
 **For iOS:**
 
 You need to install `cocopods` to install app ios dependencies, you can install using `Homebrew` it by running the following command:
@@ -106,7 +110,7 @@ You can access web app live demo and web app repo from below links:
 
 [Web App Repo](https://github.com/asamiz/simple-counter-app)
 
-Or use our app QR code scanning tool to scan this QR code and will open it automatically 😉
+Or use our app QR code scanning tool to scan this QR code and will open it automatically. 😉
 
 ![QRCode](QRCode.png)
 

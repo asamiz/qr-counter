@@ -1,3 +1,7 @@
+/**
+ * File contains all the options of the navigation stacks or screens.
+ */
+
 import {StackNavigationOptions} from '@react-navigation/stack';
 import {COLORS} from '../common';
 

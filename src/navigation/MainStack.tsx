@@ -12,7 +12,7 @@ function MainStack() {
       <Screen
         component={HomeScreen}
         name={'HomeScreen'}
-        options={{animationTypeForReplace: 'pop'}}
+        options={{animationTypeForReplace: 'pop'}} // To get the back animation while navigation
       />
       <Screen component={CounterScreen} name={'CounterScreen'} />
       <Screen component={QRCodeScreen} name={'QRCodeScreen'} />
