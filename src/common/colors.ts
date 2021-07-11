@@ -1,6 +1,6 @@
 const COLORS = {
-  main: '#053742',
-  button: '#F5A962',
+  main: '#2E4053',
+  button: '#D7DDDD',
   text: '#000000',
   header: '#DDDDDD',
 };
