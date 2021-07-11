@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/primary_dark"
     android:layout_height="match_parent">
-    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/logo" android:scaleType="centerCrop" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="QR Counter"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#D7DDDD"
+        android:textSize="40sp"
+        android:fontFamily="monospace"
+        />
 </RelativeLayout>

@@ -17,14 +17,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" text="QR Counter" textAlignment="center" minimumFontSize="46" translatesAutoresizingMaskIntoConstraints="NO" id="sWB-7h-zK0">
-                                <rect key="frame" x="66" y="304" width="243" height="60"/>
-                                <color key="textColor" red="0.96078431372549022" green="0.66274509803921566" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="66" y="303.5" width="243" height="60"/>
+                                <color key="textColor" red="0.84313725490196079" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="51"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
-                        <color key="backgroundColor" red="0.019607843137254902" green="0.21568627450980393" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.1803921568627451" green="0.25098039215686274" blue="0.32549019607843138" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="sWB-7h-zK0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="l3Q-3h-ovG"/>
                             <constraint firstItem="sWB-7h-zK0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="nTw-SU-a0X"/>
