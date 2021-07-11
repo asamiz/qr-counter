@@ -1,11 +1,11 @@
 # QR Counter App
 
-An application for scanning QR code to open the web version of the app and add the value of the counter to the one in the mobile app and store(persist) it using React Native - Redux - TypeScript.
+An application for scanning QR code to open the web version of the app, add the value of the counter to the one in the mobile app and store(persist) it using React Native - Redux - TypeScript.
 
 ## Main functionality
 
 - User can scan QR code through the scanning tool that is integrated with the app.
-- User will be navigated (after scanning the QR code containing web app version URL) to the web app version of the app and will see a screen with two buttons one to increment or the another to decrement counter value.
+- User will be navigated (after scanning the QR code containing web app version URL) to the web app version of the app and will see a screen with two buttons one for increasing and the other one for decrementing the counter value.
 - User can add the value of the counter(on the web app) when he / she closes the app to the counter value in the mobile app (starts with zero).
 - App will persist the last value of the counter and user can change it again when he / she changes the counter in the web app and closes it.
 
